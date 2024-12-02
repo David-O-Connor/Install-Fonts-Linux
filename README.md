@@ -1,6 +1,8 @@
-1. Make the .sh script with "sudo nano install.font.sh"
+1. Make the .sh script with
 
-2. Add the following code to that file
+        sudo nano install.font.sh
+
+3. Add the following code to that file
 
         #!/bin/bash
 
@@ -30,6 +32,10 @@
 
         echo "Fonts installed successfully!"
 
-3. Save the file then make the script executable with "sudo chmod +x install-font.sh"
+4. Save the file then make the script executable with
+   
+        sudo chmod +x install-font.sh
 
-4. Run the file specifying the link to the fonts you want to install (MesloLG Nerd Font) " ./install-font.sh https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Meslo.zip "
+7. Run the file specifying the link to the fonts you want to install (MesloLG Nerd Font)
+
+        ./install-font.sh https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Meslo.zip
